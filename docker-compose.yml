@@ -18,7 +18,7 @@ services:
       - POSTGRES_PASSWORD=onlinejudge
 
   oj-judge:
-    image: registry.cn-hongkong.aliyuncs.com/oj-image/judge:1.6.1
+    image: r07627015/judge-server:2.0.0
     restart: always
     read_only: true
     cap_drop:
